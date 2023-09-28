@@ -1021,7 +1021,7 @@ h4 {
 }
 
 .contact__body p {
-  margin-bottom: 20px;
+  margin-bottom: 32px;
 }
 
 .contact__body-img {
@@ -1040,8 +1040,8 @@ h4 {
   filter: grayscale(0%);
 }
 
-.contact__body-img a p {
-  margin-top: 6px;
+.contact__body-img p {
+  margin-top: 8px;
   color: #fff;
   font-family: "BuyanRegular";
   font-size: 20px;
