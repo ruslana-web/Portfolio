@@ -764,6 +764,8 @@ h4 {
 }
 
 .skills__body .skills__body-blocks {
+  margin-left: 38px;
+  margin-right: 38px;
   margin-top: 38px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1024,6 +1026,20 @@ h4 {
   margin-bottom: 32px;
 }
 
+.contact__body p span a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.contact__body p span a:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#D5FE40), color-stop(48.4%, #E8FF94), color-stop(97.59%, #D5FE40));
+  background: linear-gradient(90deg, #D5FE40 0%, #E8FF94 48.4%, #D5FE40 97.59%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: underline;
+}
+
 .contact__body-img {
   text-align: center;
 }
@@ -1142,12 +1158,16 @@ h4 {
     font-size: 18px;
     -webkit-box-shadow: 0px 3px 0px 0px #9AC010;
             box-shadow: 0px 3px 0px 0px #9AC010;
-    -webkit-transition: none;
-    transition: none;
   }
 
   .home__body-info .home__body-info__btn::before {
     display: none;
+  }
+
+  .home__body-info .home__body-info__btn:hover {
+    -webkit-transform: translate(0);
+        -ms-transform: translate(0);
+            transform: translate(0);
   }
 
   .home__body-info .home__body-info__btn:hover::before {
@@ -1244,6 +1264,12 @@ h4 {
     display: none;
   }
 
+  .portfolio .portfolio__body .swiper-btn-prev:hover {
+    -webkit-transform: translate(0);
+        -ms-transform: translate(0);
+            transform: translate(0);
+  }
+
   .portfolio .portfolio__body .swiper-btn-prev:hover::before {
     display: none;
   }
@@ -1258,6 +1284,12 @@ h4 {
 
   .portfolio .portfolio__body .swiper-btn-next::before {
     display: none;
+  }
+
+  .portfolio .portfolio__body .swiper-btn-next:hover {
+    -webkit-transform: translate(0);
+        -ms-transform: translate(0);
+            transform: translate(0);
   }
 
   .portfolio .portfolio__body .swiper-btn-next:hover::before {
@@ -1338,6 +1370,11 @@ h4 {
 
   .home__body-img {
     margin-right: 0px;
+  }
+
+  .skills__body .skills__body-blocks {
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .portfolio .portfolio__body .swiper {
